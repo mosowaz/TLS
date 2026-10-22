@@ -1,7 +1,12 @@
 ### Powershell Usage
-
+Get-TlsChain
 ```powershell
 iex (irm "https://raw.githubusercontent.com/mosowaz/TLS/main/Get-TlsChain.ps1"); Get-TlsChain -HostName "www.microsoft.com"
+```
+
+Show-TlsCert
+```powershell
+iex (irm "https://raw.githubusercontent.com/mosowaz/TLS/main/Show-TlsCert.ps1"); Get-TlsChain -HostName "www.microsoft.com"
 ```
 
 ### Bash Usage
